@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body {
+  background-color: #000000;
+  color: #FFFF00;
+  
+}
+
+#title {
+  background-color:  	#6B8E23;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  border-style:solid;
+  overflow: hidden;
+
+}
+
+#parallax {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/8a/Eugene_Jacques_Bullard%2C_first_African_American_combat_pilot_in_uniform%2C_First_World_War.jpg");
+  
+  height: 600px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+ 
+ 
+}
+
+#image {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+#img-caption {
+  text-align: center;
+}
+article {
+  width: 800px;
+  background-color:  	#6B8E23;
+  text-align: center;
+  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+#extern {
+  text-align: center;
+  
+}
